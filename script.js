@@ -1,8 +1,8 @@
-const supabase = createClient(
-  "https://ltjbusdajhrjtcqthffb.supabase.co",
-  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imx0amJ1c2RhamhyanRjcXRoZmZiIiwicm9sZSI6ImFub24iLCJpYXQiOjE3Nzc4MTkyMjMsImV4cCI6MjA5MzM5NTIyM30.r6BYVyQXuSxBIgvZYyVcDzgki4ZlL8jIh-kGyH66i8I"
-"
-);
+import { createClient } from 'https://cdn.jsdelivr.net/npm/@supabase/supabase-js/+esm';
+
+const SUPABASE_URL = "https://ltjbusdajhrjtcqthffb.supabase.co";
+const SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imx0amJ1c2RhamhyanRjcXRoZmZiIiwicm9sZSI6ImFub24iLCJpYXQiOjE3Nzc4MTkyMjMsImV4cCI6MjA5MzM5NTIyM30.r6BYVyQXuSxBIgvZYyVcDzgki4ZlL8jIh-kGyH66i8I";
+
 const sb = window.supabase.createClient(SUPA_URL, SUPA_KEY);
 
 function showScreen(name) {
