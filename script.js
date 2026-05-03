@@ -1,6 +1,7 @@
 const supabase = createClient(
-  import.meta.env.VITE_SUPABASE_URL,
-  import.meta.env.VITE_SUPABASE_ANON_KEY
+  "https://ltjbusdajhrjtcqthffb.supabase.co",
+  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imx0amJ1c2RhamhyanRjcXRoZmZiIiwicm9sZSI6ImFub24iLCJpYXQiOjE3Nzc4MTkyMjMsImV4cCI6MjA5MzM5NTIyM30.r6BYVyQXuSxBIgvZYyVcDzgki4ZlL8jIh-kGyH66i8I"
+"
 );
 const sb = window.supabase.createClient(SUPA_URL, SUPA_KEY);
 
